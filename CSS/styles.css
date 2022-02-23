@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    position: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+    
+}
+
+h1 {
+    position: absolute;
+    top: 100px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Comforter', cursive;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+   }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Containers */
+
+.topContainer {
+    background-color: #41a6d4;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.middle-container {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.bottom-container {
+    position: relative;
+
+}
+
+
+
+.top-cloud {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    width: 300px;
+    height: 100px;
+    animation-name: anim1;
+    animation-duration: 5s;
+    overflow: hidden;
+    
+    
+}
+
+
+.bottom-cloud {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    animation-name: anim2;
+    animation-duration: 7s;
+    overflow: hidden;
+}
+
+p {
+    font-family: 'Tinos', serif;
+    font-size: 22px;
+}
+
+span {
+    color: red;
+
+}
+
+.vuori {
+    position: absolute;
+    bottom: 0;
+    left: 550px;
+    width: 800px;
+    animation-name: mountain-anim;
+    animation-duration: 5s;
+    
+
+}
+
+.developer {
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+.learning {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 16px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    width: 20%;
+
+}
+
+
+.otsikko {
+    position: absolute;
+    left: 800px;
+    top: 100px;
+    width: 350px;
+    height: 250px;
+    animation-name: anim3;
+    animation-duration: 5s;
+    
+}
+
+.hi {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+
+/* Profile */
+
+.profile {
+    height: 500px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+
+}
+
+.Ville {
+    width: 350px;
+    position: absolute;
+    top: 25px;
+
+}
+
+.textbox-profile {
+    position: absolute;
+    width: 450px;
+    text-align: center;
+    bottom: 0;
+}
+/* Skills */
+
+.skill1 {
+    position: relative;
+    height: 350px;
+}
+
+.computer {
+    position: absolute;
+    left: 150px;
+}
+
+.skill1-textbox {
+    position: absolute;
+    width: 500px;
+    display: inline-block;
+    left:500px;
+    top: 100px;
+}
+
+
+.skill2 {
+    position: relative;
+    height: 350px;
+}
+
+.html-img {
+    position: absolute;
+    bottom: 100px;
+}
+
+/* Animaatioit */
+
+@keyframes anim1 {
+    from {right: -300px;}
+    to {right: 300px;}
+}
+
+@keyframes anim2 {
+    from {left: -300px;}
+    to {left: 500px;}
+}
+
+@keyframes anim3 {
+    0% {opacity: 0;}
+    100% {opacity: 100;}
+}
+@keyframes mountain-anim {
+    from {bottom: -500px;}
+    to {bottom: 0;}
+}
+
